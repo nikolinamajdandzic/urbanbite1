@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanBite</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>UrbanBite</h1>
+    </header>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="logo.svg" alt="Logotip" style="width: 100px; margin-left: 50px;">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#o-nama" class="nav-link">Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ponuda.html">Ponuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ambijent">Ugođaj</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#pitanja">Q&A</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontakt"><img src="telefon.png" alt="Kontakt"></a>
+                </li>
+            </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>
+<section id="pocetna">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="karosel.jpg" alt="Background">
+                <div class="carousel-caption d-flex align-items-center justify-content-center h-100 text-center">
+                    <div>
+                        <h1 class="display-4">Upoznajte UrbanBite – restoran koji spaja moderan interijer i vrhunsku hranu!</h1>
+                        <a href="#o-nama" class="btn btn-dark hero-btn-o-nama" style="background-color: #5C4033; color: #F5E6CA; border: none;">O nama</a>
+                        <a href="#ponuda" class="btn hero-btn-ponuda" style="color: #5C4033; background-color: #F5E6CA; border: 1px solid #5C4033;">Ponuda</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="detalj.jpg" class="d-block w-100" alt="Druga slika" style="max-height: 680px; object-fit: cover;">
+                <div class="carousel-caption">
+                    <h1>Izvanredno pripremljeno, svaki put iznova!</h1>
+                    <p>Naša kuhinja priprema jela koja ne samo zadovoljavaju, već i oduševljavaju, koristeći samo najkvalitetnije sastojke.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="interijer.jpg" alt="Background 2" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h1>Moderan interijer koji spaja stil i udobnost</h1>
+                    <p>Unutrašnjost restorana savršeno kombinira moderni dizajn s udobnošću, stvarajući prostor koji je jednostavan, ali i ugodan za opuštanje.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="eksterijer.jpg" alt="Background 3" class="d-block w-100" style="max-height: 680px; object-fit: cover;">
+                <div class="carousel-caption">
+                    <h1>Uživajte u okruženju prirode na našem vanjskom prostoru</h1>
+                    <p>Naš vanjski prostor je savršeno mjesto za opuštanje, uživanje u obroku na svježem zraku i ugodnoj atmosferi.</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Prethodni</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Sljedeći</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section id="o-nama">
+    <div class="container px-3">
+        <div class="container o-nama-section">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="onama.webp" alt="Chef" class="chef-image img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="o-nama-title">O nama</h2>
+                    <p class="o-nama-text">
+                    Restoran UrbanBite pruža savršenu kombinaciju modernog interijera i vrhunskih gastronomskih delicija. Naš menu nudi bogatstvo okusa, od svježih lokalnih namirnica do međunarodnih jela, pripremljenih s ljubavlju i pažnjom. Bilo da ste ljubitelj fine-dine iskustva ili tražite opušteni obrok s prijateljima, UrbanBite je pravo mjesto za vas. Posjetite nas u samom srcu grada i otkrijte zašto je UrbanBite postao omiljeni odabir za sve ljubitelje dobre hrane i jedinstvenog ambijenta.
+                    </p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section id="nas-tim" class="container py-5">
+    <h2 class="text-center mb-4">Naš Tim</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img src="konobar.jpg" class="rounded-circle shadow mb-3" width="150" alt="Konobar">
+            <h4>Ivana Horvat</h4>
+            <p>Srdačna konobarica</p>
+        </div>
+        <div class="col-md-4">
+            <img src="kuhar.jpeg" class="rounded-circle shadow mb-3" width="150" alt="Chef">
+            <h4>Tomislav Ivančić</h4>
+            <p>Glavni kuhar</p>
+        </div>
+        <div class="col-md-4">
+            <img src="somellier.jpg" class="rounded-circle shadow mb-3" width="150" alt="Sommelier">
+            <h4>Petar Jurić</h4>
+            <p>Sommelier</p>
+        </div>
+    </div>
+</section>
+
+<section class="riba-meso my-4">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6 text-center bg-secondary-subtle p-4" style="background-color: rgba(108, 117, 125, 0.1); margin-bottom: 2rem;">
+                <img src="riba.jpeg" alt="Profesionalno osoblje" class="img-fluid mx-auto d-block mb-3">
+                <h2>Riblji menu</h2>
+                <p>Naš riblji meni nudi svježe ulovljene delicije iz Jadranskog mora, pripremljene s pažnjom prema tradicionalnim receptima.</p>
+            </div>
+            <div class="col-md-6 text-center bg-secondary-subtle p-4" style="background-color: rgba(108, 117, 125, 0.1);  margin-bottom: 2rem;">
+                <img src="steak.jpeg" alt="Catering" class="img-fluid mx-auto d-block mb-3">
+                <h2>Mesna jela</h2>
+                <p>Ljubitelji mesa oduševit će se našim pažljivo odabranim jelima od najkvalitetnijeg mesa. Nudimo sočne odreske, janjetinu ispod peke i domaće kobasice pripremljene po starinskim receptima.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="video" class="text-center py-5">
+    <h2 class="mb-4">Uživajte u svemu što UrbanBite nudi</h2>
+    <video controls class="w-75 shadow rounded">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+</section>
+
+<section id="ponuda">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4">Bez obzira na obrok, imamo sve što želite – doručak, brunch, ručak ili večeru!</h2>
+        <div class="row g-4">
+            <div class="col-lg-6 col-md-6">
+                <div class="card h-100">
+                    <img src="brunch.jpg" class="card-img-top" alt="Predjela">
+                    <div class="card-body">
+                        <h4 class="card-title">Doručak</h4>
+                        <p>Započnite dan s našim bogatim doručkom...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="card h-100">
+                    <img src="brunch1.jpeg" class="card-img-top" alt="Glavna jela">
+                    <div class="card-body">
+                        <h4 class="card-title">Brunch</h4>
+                        <p>Naš brunch je savršena kombinacija slanih i slatkih jela...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="card h-100">
+                    <img src="kelj.jpg" class="card-img-top" alt="Deserti">
+                    <div class="card-body">
+                        <h4 class="card-title">Predjelo</h4>
+                        <p>Uživajte u našim predjelima...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="card h-100">
+                    <img src="vecera.webp" class="card-img-top" alt="Brunch">
+                    <div class="card-body">
+                        <h4 class="card-title">Večera</h4>
+                        <p>Za večeru nudimo vrhunska jela...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="ambijent" class="container py-5">
+    <h2 class="text-center mb-4">Galerija prostora</h2>
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <a href="ambijent" data-lightbox="galerija">
+                <img src="ambijent2.jpg" class="img-fluid rounded shadow" alt="Ambijent 1">
+            </a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a href="ambijent2.jpg" data-lightbox="galerija">
+                <img src="interijer2.jpg" class="img-fluid rounded shadow" alt="Ambijent 2">
+            </a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a href="img/ambijent3.jpg" data-lightbox="galerija">
+                <img src="ambijent3.jpeg" class="img-fluid rounded shadow" alt="Ambijent 3">
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="pitanja">
+    <h2>Često postavljena pitanja</h2>
+    <div class="accordion" id="accordionFAQ">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Koje vrste jela nudi UrbanBite?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    UrbanBite nudi širok spektar <a href="#ponuda" class="link" style="color: #5C4033;">jela</a>, uključujući mesna i vegetarijanska jela, pizze, tjestenine, deserte i specijalitete pripremljene s lokalnim namirnicama.
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Mogu li napraviti rezervaciju online?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    Da, rezervaciju možete napraviti putem naše web stranice ili nas možete kontaktirati putem telefona.
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Imate li opciju za vegetarijance i vegane?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    Da, imamo bogat izbor vegetarijanskih i veganskih jela koja će zadovoljiti sve ukuse.
+                </div>
+            </div>
+        </div>
+    
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Nudi li restoran dostavu ili uslugu preuzimanja jela?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    Da, nudimo dostavu hrane na adresu, kao i uslugu preuzimanja jela u restoranu.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="kontakt" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-info p-4 shadow rounded" style="background-color: #F5E6CA;">
+                    <h2 class="fw-bold text-center mb-4">Kontaktirajte nas</h2>
+                    <p class="text-center">Adresa: Kraljevac 43212, Rovišće</p>
+                    <p class="text-center">Telefon: +385 91 929 292</p>
+                    <p class="text-center">E-mail: restoran-urbanbite@info.hr</p>
+                    <h3 class="text-center fw-bold mt-4">Radno vrijeme</h3>
+                    <div class="row mt-3">
+                        <div class="text-center col-6">
+                            <p>Pon-Čet:</p>
+                            <p>9:00 - 22:00</p>
+                        </div>
+                        <div class="text-center col-6">
+                            <p>Pet-Sub:</p>
+                            <p>10:00 - 00:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="map-container p-4 shadow rounded" style="background-color: #F5E6CA;">
+                    <h2>Naša lokacija</h2>
+                    <img src="mapa copy.jpg" alt="Mapa" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p class="text-center">Copyright &copy; 2025 Restoran UrbanBite. Sva prava pridržana.</p>
+    <p>Sve slike preuzete s <a href="https://www.pexels.com" style="color: #F5E6CA;">Pexels</a>.</p>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+</div>
+</body>
+</html>

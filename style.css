@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5E6CA;
+    color: #5C4033;
+}
+h1, h2, h3, h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1, h2{
+    font-weight: bold;
+}
+h3,h4{
+    font-weight: lighter;
+}
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 25px;
+    background-color: #F5E6CA;
+}
+nav ul li a img{
+    width: 22px;
+    height: auto;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #5C4033!important;
+    margin-right: 50px;
+    padding: 5px 10px;
+}
+.navbar-nav .nav-item {
+    padding-top: 0px; 
+    padding-bottom: 0px;
+}
+.navbar-nav .nav-link:hover {
+    color: #F5E6CA !important;
+}
+.hero {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #F5E6CA ;
+}
+.background {
+    position: absolute;
+    z-index: -1;
+    height: 400px;
+}
+.hero-btn-o-nama, .hero-btn-ponuda {
+    border-radius: 0; 
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5C4033(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.hero-content {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #F5E6CA ;
+    padding: 0;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.hero-content .btn {
+    margin: 0 10px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: auto;
+}
+.carousel-caption h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+}
+.carousel-caption p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+link{
+    color: #5C4033;
+}
+link :hover{
+    color: #4E2C1F;
+}
+.carousel-item {
+    height: 100vh; 
+    background: no-repeat center center; 
+    background-size: cover; 
+}
+.carousel-text {
+    font-size: clamp(14px, 3vw, 24px);
+}
+.rounded-circle {
+    width: 180px;
+    height: 180px; 
+    object-fit: cover; 
+    margin-bottom: 15px; 
+}
+.riba-meso img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.riba-meso h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.riba-meso .col-md-6 p {
+    border-radius: 5px; 
+    padding: 20px; 
+}
+.riba-meso .col-md-6{
+    padding-bottom: 2rem !important;
+}
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+.o-nama-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+}
+.o-nama-section{
+    margin-top: 80px;
+}
+.o-nama-text{
+    font-size: 1.1rem;
+}
+.o-nama-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.map-container{
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+}
+.accordion-button {
+    background-color: #5C4033; 
+    color: #F5E6CA; 
+    border: none;
+}
+.accordion-button:hover {
+    background-color: #5C4033; 
+}
+.accordion-button:not(.collapsed) {
+    background-color: #4E2C1F; 
+    color: #F5E6CA;
+}
+.accordion-body {
+    background-color: #F5E6CA; 
+    color: #5C4033; 
+}
+footer {
+    background-color: #5C4033;
+    color: #F5E6CA;
+    text-align: center;
+}
